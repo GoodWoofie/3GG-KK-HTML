@@ -1,0 +1,52 @@
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    border: 3px solid black;
+}
+th,td {
+     border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 5px;
+        }
+.obraz {
+    max-width: 300px;
+    max-height: 600px;
+}
+h1 {
+    font-size: 50px;
+}
+.center{
+    text-align: center;
+}
+.Courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+.inter {
+    line-height: 2em;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: deeppink;
+}
+a:active {
+    color: darkcyan;
+}
+h2 {
+    text-transform: uppercase;
+}
+th {
+    color: red;
+}
+a[href*="youtu"] {
+    font-weight: bold;
+}
+.dot {
+    border: 3px dotted black
+}

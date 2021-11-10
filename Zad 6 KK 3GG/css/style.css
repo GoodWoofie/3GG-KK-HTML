@@ -1,0 +1,13 @@
+th, td{
+    border: 1px dotted black;
+    border-collapse: collapse;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#h {
+   color:sienna;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif; 
+}
