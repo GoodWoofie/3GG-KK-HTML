@@ -5,6 +5,7 @@ td {
 }
 table {
     border: 3px solid black;
+    margin: auto;
 }
 th,td {
      border: 1px solid black;
@@ -45,7 +46,8 @@ h2 {
     text-transform: uppercase;
 }
 th {
-    color: red;
+    font-weight: bold;
+    font-size: 1.4em;
 }
 a[href*="youtu"] {
     font-weight: bold;
@@ -65,4 +67,25 @@ p {
     width: auto\9;
     max-width: 50%;
     max-height: 50%;
+}
+.cast {
+    overflow-x: scroll;
+    height: 530px;
+    width: 600px;
+    margin: auto;
+    padding: 50px;
+    border-image: url("../img/frame.png") 11 11 11 11 stretch;
+    -moz-border-image: url("../img/frame.png") 11 11 11 11 stretch;
+    -webkit-border-image: url("../img/frame.png") 11 11 11 11 stretch;
+}
+.margin {
+    margin-top: 108px;
+}
+li {
+    list-style-type:none;
+    display: inline;
+    padding: 20px;
+}
+#menu {
+    text-align: center;
 }

@@ -34,3 +34,11 @@ a:active {
 p {
     background-color: beige;
 }
+li {
+    list-style-type:none;
+    display: inline;
+    padding: 20px;
+}
+#menu {
+    text-align: center;
+}
