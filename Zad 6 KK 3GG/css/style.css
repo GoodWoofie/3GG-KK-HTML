@@ -9,19 +9,16 @@ th, td{
     border: 1px dotted black;
     border-collapse: collapse;
 }
-th, td [rowspan= "≥3"]{
+td[rowspan= "3"]{
 background-color: lightcyan;
 }
 table {
     border: 2px solid black;
     border-collapse: collapse;
     margin: 20px;
+    text-align: center;
 }
-#h {
-   color:sienna;
-   text-align: center;
-   font-family: Arial, Helvetica, sans-serif; 
-}
+
 a:visited {
     color: black;
 }
@@ -30,6 +27,12 @@ a:hover {
 }
 a:active {
     color: darkcyan;
+}
+#h > a, #h {
+   color:maroon !important;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   
 }
 p {
     background-color: beige;
