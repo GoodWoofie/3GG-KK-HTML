@@ -37,11 +37,17 @@ a:active {
 p {
     background-color: beige;
 }
-li {
+h1 + ul > li {
     list-style-type:none;
     display: inline;
     padding: 20px;
 }
 #menu {
     text-align: center;
+}
+#movie {
+    list-style-image: url('../img/film.png');
+}
+#dir {
+    list-style-image: url('../img/director.png');
 }
