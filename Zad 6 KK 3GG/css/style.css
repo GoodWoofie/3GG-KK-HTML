@@ -51,3 +51,12 @@ h1 + ul > li {
 #dir {
     list-style-image: url('../img/director.png');
 }
+ol {
+    list-style-type: upper-roman;
+}
+#niepaż{
+    background-color: firebrick;
+}
+#paż {
+    background-color: midnightblue;
+}
