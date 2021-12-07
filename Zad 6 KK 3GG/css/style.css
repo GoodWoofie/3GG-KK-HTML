@@ -8,6 +8,7 @@ li {
 th, td{
     border: 1px dotted black;
     border-collapse: collapse;
+    background-color: lightblue;
 }
 td[rowspan= "3"]{
 background-color: lightcyan;
@@ -36,6 +37,7 @@ a:active {
 }
 p {
     background-color: beige;
+    cursor: url("../img/Rabbet.jpg"), auto;
 }
 h1 + ul > li {
     list-style-type:none;
@@ -52,11 +54,18 @@ h1 + ul > li {
     list-style-image: url('../img/director.png');
 }
 ol {
-    list-style-type: upper-roman;
+    list-style-type:lower-roman;
 }
 #niepaż{
     background-color: firebrick;
 }
 #paż {
-    background-color: midnightblue;
+    background-color: rgb(35, 211, 187);
+}
+.Main {
+    border-spacing: 20px 5px;
+    border-collapse: separate;
+}
+a[href*='about'] {
+    cursor: crosshair;
 }
