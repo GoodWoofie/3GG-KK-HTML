@@ -1,0 +1,20 @@
+nav {
+    float: left;
+    background-color: plum;
+}
+.centr {
+    float: left;
+    width: 600px;
+    margin: auto;
+    background-color: palegreen;
+    margin-bottom: 20px;
+    }
+aside{
+    float: left;
+    background-color: palevioletred;
+}
+footer {
+    clear: both;
+    padding: 0px 0px 50px 0px;
+    background-color: palegoldenrod;
+}
