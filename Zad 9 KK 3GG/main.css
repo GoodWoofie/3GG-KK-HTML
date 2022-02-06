@@ -1,0 +1,17 @@
+header {
+    position:fixed;
+    background-color: rgb(30, 223, 30);
+}
+.box {
+    position: fixed;
+    top: 80%;
+    left: 75%;
+    height:90px;
+    width: 150px;
+    background-color: orange;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    border: rgb(194, 167, 49) solid 3px;
+    border-radius: 20px;
+}

@@ -1,0 +1,39 @@
+body {
+    width: 800px;
+    margin: auto;
+}
+header {
+    width: 800px;
+    font-size: large;
+    margin: auto;
+    z-index: 10;
+}
+.long {
+    margin-right: 15px;
+    width: 350px;
+    float: right;
+    margin-top: 80px;
+    padding: 10px;
+    background-color: rgb(90, 65, 255);
+    border: solid black 1px;
+}
+.long1 {
+    margin-right: 15px;
+    width: 370px;
+    float: right;
+    margin-top: 80px;
+    padding: 10px;
+    background-color: rgb(188, 231, 148);
+    border: solid black 1px;
+}
+.relative {
+    position: relative;
+    top: 10px;
+    left: 60px;
+    width: 300px;
+}
+.website {
+    overflow: auto;
+    width: 100%;
+    border: solid 1px black;
+}

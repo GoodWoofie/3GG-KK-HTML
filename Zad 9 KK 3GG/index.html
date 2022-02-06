@@ -1,94 +1,39 @@
-<!doctype html>
-<!--
-    Zadania do wykonania:
-    Używać zewnętrznego arkusza stylów
-    Wykorzystaj właściwości float do odtworzenia układu jak na załączonym przykładzie
-    Nav po lewej stronie, section obok nav, aside po prawej, footer na dole
-    Nadać klasy odpowiednim elementom
-    Kolory tła pudełek dowolne, byle by różniły się kolorami
-    Wysłać projekt w formacie archiwum zip na adres email marcin.kubacki@teb.edu.pl.
-    Bez wysłania pracy na maila - brak możliwości wystawienia oceny.
--->
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Kacper_Kufel_10 CSS Float</title>
-    <link href="styles.css" type="text/css" rel="stylesheet"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <title>Document</title>
 </head>
-
 <body>
-    <div>
-        <nav>
-            <ul>
-                <a href="#">
-                    <li>Szkolna Biblioteka Cyfrowa</li>
-                </a>
-                <a href="#">
-                    <li>O nas</li>
-                </a>
-                <a href="#">
-                    <li>Aktualności</li>
-                </a>
-                <a href="#">
-                    <li>Oferta</li>
-                </a>
-            </ul>
-        </nav>
-        <div class="centr">
-            <section>
-                <h1>Szkoła Technikum TEB Edukacja.</h1>
-                <div>
-                    <img src="https://www.teb.pl/cache/r1200x1200/files/cities/gdansk/galeria/Bez%20nazwy-5.jpg"
-                        width="300" alt="" />
-                </div>
+    <div class="website">
+        <header><h2>Tytuł</h2></header>
+        <section class="long"><article class="art1" id="top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at gravida ligula. In hendrerit accumsan nunc, eget sagittis felis. Nunc nec vehicula nisl. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean iaculis accumsan tellus ut tempor. Curabitur quis egestas leo, quis consequat tortor. Ut ut pellentesque nunc, vel mollis diam. In rhoncus, arcu sit amet vestibulum aliquet, mi diam placerat turpis, eu eleifend felis nisl eget leo. Cras risus massa, faucibus a aliquet nec, gravida eget ipsum. Nam blandit felis vitae neque rhoncus convallis. Fusce pharetra neque metus, sed tincidunt lectus mollis vel. Pellentesque vel nibh ac velit ullamcorper porttitor. Morbi consectetur diam a est tristique egestas. Proin nec cursus nisl. Cras mattis id ligula vel dignissim.
 
-            </section>
-            <section>
-                <h1>Lorem ipsum</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet augue sed nisl consectetur
-                    posuere. Praesent interdum quam id lectus consectetur vel aliquam odio dictum. Nunc quis molestie
-                    nunc. Curabitur vel justo vitae tortor sodales vestibulum. Fusce eu sapien mauris, eget lacinia
-                    nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla
-                    facilisi.</p>
-                <p>Cras aliquam blandit diam, in facilisis sapien commodo nec. Integer non felis non sem dapibus congue
-                    a nec enim. Mauris risus purus, sagittis vel imperdiet posuere, egestas quis massa. Nulla nec neque
-                    nisi, sit amet eleifend enim. Nam nec rhoncus metus. Phasellus convallis augue in mauris eleifend
-                    non volutpat felis feugiat. Morbi a tellus sed metus tincidunt adipiscing et ut nisi. Suspendisse
-                    sollicitudin orci a velit ornare sed interdum ante laoreet. Vestibulum tincidunt, tellus suscipit
-                    tincidunt consequat, mi lectus placerat tortor, et suscipit sapien elit malesuada purus. Vestibulum
-                    convallis scelerisque neque, non vehicula lorem interdum vel. Curabitur a purus vel est tincidunt
-                    dictum a cursus lectus. Suspendisse potenti. Quisque porta molestie convallis. Aenean a eros in odio
-                    pulvinar pellentesque.</p>
-                <p>Cras aliquam blandit diam, in facilisis sapien commodo nec. Integer non felis non sem dapibus congue
-                    a nec enim. Mauris risus purus, sagittis vel imperdiet posuere, egestas quis massa. Nulla nec neque
-                    nisi, sit amet eleifend enim. Nam nec rhoncus metus. Phasellus convallis augue in mauris eleifend
-                    non volutpat felis feugiat. Morbi a tellus sed metus tincidunt adipiscing et ut nisi. Suspendisse
-                    sollicitudin orci a velit ornare sed interdum ante laoreet. Vestibulum tincidunt, tellus suscipit
-                    tincidunt consequat, mi lectus placerat tortor, et suscipit sapien elit malesuada purus. Vestibulum
-                    convallis scelerisque neque, non vehicula lorem interdum vel. Curabitur a purus vel est tincidunt
-                    dictum a cursus lectus. Suspendisse potenti. Quisque porta molestie convallis. Aenean a eros in odio
-                    pulvinar pellentesque.</p>
-                <p>qwertyuiop</p>
-            </section>
+            <p class="relative">Nulla facilisi. Donec sed velit vel ligula volutpat varius in et justo. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, erat id commodo sollicitudin, ipsum mi vulputate quam, eu aliquam lectus nisi sed nulla. Proin maximus tincidunt purus a pretium. Morbi eros ex, bibendum in arcu sed, vulputate hendrerit sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut arcu posuere, aliquet nulla vitae, mollis dui.</p>
+            
+            Nullam elementum, urna at fermentum pulvinar, tellus eros convallis ante, eget rutrum lectus velit sit amet neque. Vivamus orci erat, posuere ac odio in, condimentum efficitur justo. Donec euismod malesuada dignissim. Proin eu auctor velit. Donec suscipit libero vitae gravida viverra. Integer convallis dolor varius vestibulum accumsan. In non justo justo. Quisque mi quam, pharetra non sem sed, laoreet condimentum leo.
+            
+            <p class="relative">Donec risus tortor, consequat a sapien quis, interdum porttitor ex. In hac habitasse platea dictumst. Nullam vitae rhoncus velit, eget euismod libero. Duis condimentum erat non turpis sodales, vitae rutrum leo faucibus. Curabitur sit amet quam tempor, efficitur arcu laoreet, placerat lectus. Quisque in luctus felis, vel ullamcorper metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+            
+            Nulla ex lacus, malesuada at commodo non, condimentum vel risus. Phasellus urna mauris, viverra vel libero ac, tincidunt mollis ligula. Etiam euismod enim eget posuere blandit. Pellentesque ut neque et leo condimentum porta et vel nisl. Nunc elementum ac eros et fermentum. Proin suscipit, neque ac rhoncus aliquet, arcu dui faucibus libero, id dignissim quam nisl ac nulla. Nulla vehicula velit et elit porta, a hendrerit enim bibendum. Cras lobortis elit suscipit luctus efficitur. Nunc sed mi imperdiet, hendrerit risus et, dictum dolor. Etiam vulputate gravida nisi eget finibus. Sed sodales sapien in tempus molestie. Phasellus cursus felis at condimentum porta. Aenean varius pharetra pharetra. Nunc laoreet a velit sit amet aliquet.
+            
+            <p class="relative">Donec sed elit vitae risus sollicitudin accumsan. Donec dignissim eros dictum efficitur finibus. Donec vel ipsum rutrum, consectetur orci eget, ultricies erat. Quisque urna diam, volutpat eu tempor vel, lacinia at urna. Vestibulum euismod purus sit amet dolor gravida, interdum condimentum purus tempus. Vivamus tempus justo in justo congue, eget sodales massa euismod. Aliquam ac elit lectus. Nullam sed nisi vel dolor convallis dictum. Integer at odio ac odio blandit vulputate. Vestibulum fermentum risus in venenatis sodales. Fusce convallis justo justo, cursus pharetra ipsum congue vel. Proin at mi eu nibh lacinia tincidunt sit amet nec odio. Vestibulum sed sapien vel risus laoreet lobortis ut ac augue.</p></article></section>
+        <section class="long1"><article class="art1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at gravida ligula. In hendrerit accumsan nunc, eget sagittis felis. Nunc nec vehicula nisl. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean iaculis accumsan tellus ut tempor. Curabitur quis egestas leo, quis consequat tortor. Ut ut pellentesque nunc, vel mollis diam. In rhoncus, arcu sit amet vestibulum aliquet, mi diam placerat turpis, eu eleifend felis nisl eget leo. Cras risus massa, faucibus a aliquet nec, gravida eget ipsum. Nam blandit felis vitae neque rhoncus convallis. Fusce pharetra neque metus, sed tincidunt lectus mollis vel. Pellentesque vel nibh ac velit ullamcorper porttitor. Morbi consectetur diam a est tristique egestas. Proin nec cursus nisl. Cras mattis id ligula vel dignissim.
+
+            <p class="relative">Nulla facilisi. Donec sed velit vel ligula volutpat varius in et justo. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, erat id commodo sollicitudin, ipsum mi vulputate quam, eu aliquam lectus nisi sed nulla. Proin maximus tincidunt purus a pretium. Morbi eros ex, bibendum in arcu sed, vulputate hendrerit sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut arcu posuere, aliquet nulla vitae, mollis dui.</p>
+            
+            Nullam elementum, urna at fermentum pulvinar, tellus eros convallis ante, eget rutrum lectus velit sit amet neque. Vivamus orci erat, posuere ac odio in, condimentum efficitur justo. Donec euismod malesuada dignissim. Proin eu auctor velit. Donec suscipit libero vitae gravida viverra. Integer convallis dolor varius vestibulum accumsan. In non justo justo. Quisque mi quam, pharetra non sem sed, laoreet condimentum leo.
+            
+            <p class="relative"> Donec risus tortor, consequat a sapien quis, interdum porttitor ex. In hac habitasse platea dictumst. Nullam vitae rhoncus velit, eget euismod libero. Duis condimentum erat non turpis sodales, vitae rutrum leo faucibus. Curabitur sit amet quam tempor, efficitur arcu laoreet, placerat lectus. Quisque in luctus felis, vel ullamcorper metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+            
+            Nulla ex lacus, malesuada at commodo non, condimentum vel risus. Phasellus urna mauris, viverra vel libero ac, tincidunt mollis ligula. Etiam euismod enim eget posuere blandit. Pellentesque ut neque et leo condimentum porta et vel nisl. Nunc elementum ac eros et fermentum. Proin suscipit, neque ac rhoncus aliquet, arcu dui faucibus libero, id dignissim quam nisl ac nulla. Nulla vehicula velit et elit porta, a hendrerit enim bibendum. Cras lobortis elit suscipit luctus efficitur. Nunc sed mi imperdiet, hendrerit risus et, dictum dolor. Etiam vulputate gravida nisi eget finibus. Sed sodales sapien in tempus molestie. Phasellus cursus felis at condimentum porta. Aenean varius pharetra pharetra. Nunc laoreet a velit sit amet aliquet.
+            
+            <p class="relative">Donec sed elit vitae risus sollicitudin accumsan. Donec dignissim eros dictum efficitur finibus. Donec vel ipsum rutrum, consectetur orci eget, ultricies erat. Quisque urna diam, volutpat eu tempor vel, lacinia at urna. Vestibulum euismod purus sit amet dolor gravida, interdum condimentum purus tempus. Vivamus tempus justo in justo congue, eget sodales massa euismod. Aliquam ac elit lectus. Nullam sed nisi vel dolor convallis dictum. Integer at odio ac odio blandit vulputate. Vestibulum fermentum risus in venenatis sodales. Fusce convallis justo justo, cursus pharetra ipsum congue vel. Proin at mi eu nibh lacinia tincidunt sit amet nec odio. Vestibulum sed sapien vel risus laoreet lobortis ut ac augue.</p></article</section>
+            <footer class="box"><p><a href="#top">Do Góry</a></p></footer>
         </div>
-        <aside>
-            <h2>Find Us on the Web</h2>
-            <ul>
-                <li><a href="#">Twitter</a>
-                </li>
-                <li><a href="#">Facebook</a>
-                </li>
-                <li><a href="#">Instagram</a>
-                </li>
-            </ul>
-        </aside>
-    </div>
-
-    <footer>
-        <p>Footer</p>
-    </footer>
-
 </body>
-
 </html>
