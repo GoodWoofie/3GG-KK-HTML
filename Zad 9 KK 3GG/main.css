@@ -1,6 +1,9 @@
 header {
     position:fixed;
     background-color: rgb(30, 223, 30);
+    font-size: large;
+    margin: auto;
+    z-index: 10;
 }
 .box {
     position: fixed;

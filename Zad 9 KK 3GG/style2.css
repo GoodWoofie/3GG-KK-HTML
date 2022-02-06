@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+}
+.div1 {
+    float: right;
+    background-color: lightcyan;
+    padding: 10px;
+    clear: both;
+    margin: 25px;
+}
+.div2 {
+    float: right;
+    background-color: lightsalmon;
+    padding: 10px;
+    clear: both;
+    margin: 25px;
+}
+.div3 {
+    float: right;
+    background-color: lightsteelblue;
+    padding: 10px;
+    clear: both;
+    margin: 25px;
+}
+.div4 {
+    float: right;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    clear: both;
+    margin: 25px;
+}
+section {
+    padding: 2%;
+    margin:auto;
+    margin-top: 60px;
+    width: 21%;
+    float: right;
+}

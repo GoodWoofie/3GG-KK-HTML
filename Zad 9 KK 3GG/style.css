@@ -4,9 +4,6 @@ body {
 }
 header {
     width: 800px;
-    font-size: large;
-    margin: auto;
-    z-index: 10;
 }
 .long {
     margin-right: 15px;
@@ -19,7 +16,7 @@ header {
 }
 .long1 {
     margin-right: 15px;
-    width: 370px;
+    width: 350px;
     float: right;
     margin-top: 80px;
     padding: 10px;
