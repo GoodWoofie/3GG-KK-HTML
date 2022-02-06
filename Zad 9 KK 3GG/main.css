@@ -4,6 +4,7 @@ header {
     font-size: large;
     margin: auto;
     z-index: 10;
+    margin-top:-10px !important;
 }
 .box {
     position: fixed;
